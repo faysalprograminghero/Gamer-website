@@ -73,8 +73,9 @@ margin-top: 20px;
             display: flex;
          flex-wrap: wrap;
          align-items: center;
-          padding-bottom: 700px;
+         
           margin-left: 80px;
+          margin-bottom: 1000px;
          
          }
          .multi-container-1{
@@ -83,6 +84,7 @@ margin-top: 20px;
             display:flex;
             flex-wrap: wrap;
             align-items: center;
+            margin-top: 50px;
             
          
           
