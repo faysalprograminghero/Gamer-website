@@ -48,6 +48,13 @@
     border-radius: 8px;
     background-color:rgba(11, 2, 35, 0.10); ;
     color: #3C354F;
+    display: flex;
+    align-items: certer;
+    gap: 5px;
+}
+.follow-img{
+    height: 15px;
+
 }
 
 /*bannar part*/
@@ -63,11 +70,11 @@
 }
 
 .bannar-text{
-    width: 50%;
+   
     height: 300px;
    
     margin-top: 0PX;
-    text-align: center;
+    
 }
 .bannar-logo{
     width: 50%;
@@ -101,11 +108,12 @@ font-weight: 600;
     color: #534C64;
 text-align: center;
 font-family: Work Sans;
-font-size: 20px;
+font-size: 15px;
 font-style: normal;
 font-weight: 500;
 
 }
+
 .btn-primary{
     border: none;
     background-color: #FF42A5;border-radius: 48px;
@@ -145,6 +153,7 @@ font-weight: 500;
     text-align: center;
     margin-top: -30px;
     background-color: #FFF;
+    padding: 30px;
 }
 
 .boxes{
