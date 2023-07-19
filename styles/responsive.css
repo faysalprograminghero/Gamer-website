@@ -42,10 +42,11 @@ margin-top: 20px;
        align-items: center;
       } 
       .online-game-container{
-        margin-top: 300px;
+        margin-top: 400px;
          text-align: center;
          padding-left: 50px;
          background-color: #FFF;
+         
       }
       .boxes{
        
@@ -53,7 +54,19 @@ margin-top: 20px;
         display: flex;
         flex-direction: column;
         padding-bottom: 750px;
+        margin-top: 500px;
+        margin-left: -50px;
          }
+         
+         .box{
+          margin-top: 200px;  
+           
+         }
+         .box-img{
+            width:300%;
+            height: 100%;
+        }
+        
          .play-instantly{
    
            
@@ -62,6 +75,7 @@ margin-top: 20px;
          align-items: center;
           padding-bottom: 700px;
           margin-left: 80px;
+         
          }
          .multi-container-1{
             
@@ -90,6 +104,7 @@ margin-top: 20px;
             width: 50%;
             padding-left: 50px;
         }
+        
         
     }
 
