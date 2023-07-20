@@ -16,7 +16,7 @@ margin-top: 20px;
        font-size: 25px;
      gap: 20px;
         
-    }
+    }/*bannar-part*/
     .bannar-container{
       
        display: flex;
@@ -24,23 +24,19 @@ margin-top: 20px;
       
     }
     .bannar-logo{
-        height: 80%;
-        width: 50%;
-       
-        margin-top: 150px;
-        margin-left: -80px;
-       
+  
+        width: 100%;
+      
      }
-     .bannar-logo img{
-         height: 80%;
-        
+     
     
-     }
-     .bannar-container{
-        display: flex;
-       flex-direction: column;
-       align-items: center;
-      } 
+     
+     .bannar-text{
+    width: 100%;
+      
+        
+         
+     }/*online-game part*/
       .online-game-container{
         margin-top: 400px;
          text-align: center;
@@ -48,43 +44,64 @@ margin-top: 20px;
          background-color: #FFF;
          
       }
+      .online-games-hading{
+        width: 100%;
+        margin-top: -350px;
+        margin-left: -20px;
+      }
+      .online-games-description{
+        width: 100%;
+        margin-left: -20px;
+      }
       .boxes{
        
       
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 750px;
-        margin-top: 500px;
-        margin-left: -50px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       
+        
+       margin-bottom: 100px;
+       
          }
+         #online-games-description{
+            color:#534C64 ;
+            text-align: center;
+           margin-top: -10px;
+            background-color: #FFF;
+            padding: 20px;
+        }
          
          .box{
-          margin-top: 200px;  
-           
+         width: 100%;
          }
          .box-img{
-            width:300%;
-            height: 100%;
-        }
+            width:100%;
+           
+        }/*play instantly*/
         
          .play-instantly{
    
            
             display: flex;
-         flex-wrap: wrap;
-         align-items: center;
          
-          margin-left: 80px;
-          margin-bottom: 1000px;
-         
+            flex-direction: column;
          }
+         .play-instantly-text{
+            width: 100%;
+            margin-top: 350px;
+         }
+         .play-instantly-img{
+            width: 100%;
+           
+
+           }/*gaming type container*/
          .multi-container-1{
             
-           
+            width: 100%;
             display:flex;
-            flex-wrap: wrap;
-            align-items: center;
-            margin-top: 50px;
+           flex-wrap: wrap;
+          
+          
             
          
           
@@ -97,6 +114,12 @@ margin-top: 20px;
            gap: 20px;
             
            }
+           .eatch-container{
+           width: 100%;
+           
+            
+            
+           }
            .social-icon{
             display: flex;
             flex-wrap: wrap;
@@ -105,10 +128,10 @@ margin-top: 20px;
         .play-instantly-text{
             width: 50%;
             padding-left: 50px;
-        }
+        }}
         
         
-    }
+    
 
     
 
